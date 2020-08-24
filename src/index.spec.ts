@@ -2,8 +2,6 @@ test("Checks if tests are working", () => {
   const str = "";
 
   expect(str).toBeDefined();
-
-  expect(1).toEqual(2); // proposital error
 });
 
 import { sum } from "./module";
