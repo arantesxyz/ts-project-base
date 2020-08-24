@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
-    "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+		"dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
+		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
     "test": "jest"
   },
   "dependencies": {},

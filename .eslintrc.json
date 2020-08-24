@@ -9,7 +9,7 @@
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
-        "ecmaVersion": 11,
+        "ecmaVersion": 2020,
         "sourceType": "module"
     },
     "plugins": [
@@ -19,7 +19,9 @@
         "indent": [
             "warn",
             2
-        ],
+				],
+				"max-len": "error",
+				"max-depth":"error",
         "linebreak-style": [
             "error",
             "unix"
