@@ -6,7 +6,8 @@
   "author": "Gustavo Arantes <me@arantes.dev>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+		"build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
+		"build:declaration": "tsc --emitDeclarationOnly",
     "dev": "tsnd --transpile-only --respawn --ignore-watch node_modules src/index.ts",
 		"lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
 		"test": "jest"
