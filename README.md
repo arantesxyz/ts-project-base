@@ -5,7 +5,6 @@ Simple TypeScript project template for new applications.
 ## Features
 
 - [TypeScript](https://www.typescriptlang.org/)
-- [Babel](https://babeljs.io/)
 - [EsLint](https://eslint.org/)
 - [jest](https://jestjs.io/)
 - [Husky](https://www.npmjs.com/package/husky)
