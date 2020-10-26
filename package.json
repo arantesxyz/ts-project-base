@@ -2,7 +2,7 @@
   "name": "ts-project-base",
   "version": "2.0.0",
   "main": "index.js",
-  "repository": "https://github.com/SeniorStudios/ts-project-base.git",
+  "repository": "https://github.com/arantesxyz/ts-project-base.git",
   "author": "Gustavo Arantes <me@arantes.dev>",
   "license": "MIT",
   "scripts": {
